@@ -1,0 +1,52 @@
+{
+  "name": "eslint-config-chetbaby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-unicorn": "^22.0.0",
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-unicorn": "^22.0.0",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetbaby/eslint-config-chetbaby.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetbaby/eslint-config-chetbaby/issues"
+  },
+  "homepage": "https://github.com/chetbaby/eslint-config-chetbaby#readme",
+  "dependencies": {}
+}

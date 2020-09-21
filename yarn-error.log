@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/chet_hay/.nvm/versions/node/v12.18.2/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add -D eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y babel-eslint eslint-plugin-import
+
+PATH: 
+  /Users/chet_hay/.nvm/versions/node/v12.18.2/bin:/usr/local/opt/python/libexec/bin:/Users/chet_hay/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/osquery/bin:/opt/airbnb/bin:/opt/puppetlabs/bin:/usr/local/munki:/Users/chet_hay/.fzf/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint%20prettier: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:140749:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141721:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
