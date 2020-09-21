@@ -11,7 +11,16 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        trailingComma: 'es5',
+        tabWidth: 2,
+        semi: false,
+        singleQuote: true,
+        arrowParens: 'avoid',
+      },
+    ],
     'import/no-useless-path-segments': 'off',
     'unicorn/no-abusive-eslint-disable': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
@@ -36,4 +45,4 @@ module.exports = {
       version: 'detect',
     },
   },
-}
+};
