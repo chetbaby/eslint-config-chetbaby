@@ -24,6 +24,7 @@ module.exports = {
     'import/no-useless-path-segments': 'off',
     'unicorn/no-abusive-eslint-disable': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'no-param-reassign': 'off',
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -45,4 +46,4 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+}
